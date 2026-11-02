@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Expo cache, local settings, and emulator data
+.expo/
+.expo-shared/
+expo-env.d.ts
+
+# Build output
+dist/
+web-build/
+coverage/
+*.apk
+*.aab
+*.ipa
+
+# Native build caches and machine-specific settings
+**/.gradle/
+**/build/
+**/local.properties
+**/Pods/
+**/xcuserdata/
+*.xcuserstate
+*.hprof
+
+# Signing credentials
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
